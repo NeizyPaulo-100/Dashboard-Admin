@@ -131,17 +131,24 @@ export const estados = [
     },
 ]
 
-export const month_data =[
-    {month: "Jan", reveneu: "45000", expenses: "33000"},
-    {month: "Fev", reveneu: "55000", expenses: "37000"},
-    {month: "Mar", reveneu: "48000", expenses: "35000"},
-    {month: "Abr", reveneu: "62000", expenses: "43000"},
-    {month: "Mai", reveneu: "55000", expenses: "41000"},
-    {month: "Juh", reveneu: "66000", expenses: "45000"},
-    {month: "Jul", reveneu: "73000", expenses: "47000"},
-    {month: "Ago", reveneu: "69000", expenses: "46000"},
-    {month: "Set", reveneu: "78000", expenses: "52000"},
-    {month: "Out", reveneu: "75000", expenses: "50000"},
-    {month: "Nov", reveneu: "83000", expenses: "56000"},
-    {month: "Dez", reveneu: "90000", expenses: "58000"},
+export const mes_receitas = [
+    {mes: "Jan", receita: "45000", despesas: "33000"},
+    {mes: "Fev", receita: "55000", despesas: "37000"},
+    {mes: "Mar", receita: "48000", despesas: "35000"},
+    {mes: "Abr", receita: "62000", despesas: "43000"},
+    {mes: "Mai", receita: "55000", despesas: "41000"},
+    {mes: "Juh", receita: "66000", despesas: "45000"},
+    {mes: "Jul", receita: "73000", despesas: "47000"},
+    {mes: "Ago", receita: "69000", despesas: "46000"},
+    {mes: "Set", receita: "78000", despesas: "52000"},
+    {mes: "Out", receita: "75000", despesas: "50000"},
+    {mes: "Nov", receita: "83000", despesas: "56000"},
+    {mes: "Dez", receita: "90000", despesas: "58000"},
+]
+
+export const vendas_data = [
+    { name: "Eletronicos", value: 55, fill: "#3b82f6" },
+    { name: "Vestuario", value: 40, fill: "#8b5cf6" },
+    { name: "Livros", value: 25, fill: "#10b981" },
+    { name: "Outros", value: 20, fill: "#f59e0b" },
 ]

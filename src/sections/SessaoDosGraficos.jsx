@@ -1,6 +1,7 @@
 import React from "react";
 import GraficoDeReceitas from "../components/dashboard/GraficoDeReceitas";
 import GraficoDeVendas from "../components/dashboard/GraficoDeVendas";
+import TabelaDeRecenntes from "./SessaodasTabelas";
 
 export default function SessaoDosGraficos() {
     return (

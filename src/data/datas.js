@@ -1,5 +1,6 @@
 import { 
     BarChart3, 
+    Bell, 
     Calendar, 
     CreditCard, 
     DollarSign, 
@@ -11,6 +12,7 @@ import {
     Settings, 
     ShoppingBag, 
     ShoppingCart, 
+    User, 
     Users, 
     Users2
 } from "lucide-react";
@@ -151,4 +153,139 @@ export const vendas_data = [
     { name: "Vestuario", value: 40, fill: "#8b5cf6" },
     { name: "Livros", value: 25, fill: "#10b981" },
     { name: "Outros", value: 20, fill: "#f59e0b" },
+]
+
+export const ordens_recentes = [
+    {
+        id: "A333",
+        cliente: "Luis Muhele",
+        produto: "MackBook Pro 16",
+        preco: "$2,400",
+        estado: "completo",
+        data: "2025-05-10"
+    },
+    {
+        id: "A334",
+        cliente: "Adelino Emiliano",
+        produto: "IPhone Pro Max 16",
+        preco: "$1,200",
+        estado: "pedido",
+        data: "2025-04-10"
+    },
+    {
+        id: "A335",
+        cliente: "Mingo da Silva",
+        produto: "MackBook Pro 14",
+        preco: "$1,400",
+        estado: "pedido",
+        data: "2025-05-10"
+    },
+    {
+        id: "A336",
+        cliente: "Noé Paulo",
+        produto: "Samsung S24",
+        preco: "$1,000",
+        estado: "completo",
+        data: "2025-05-10"
+    },
+    {
+        id: "A337",
+        cliente: "Mateu Nando",
+        produto: "IPad Pro 16",
+        preco: "$1,300",
+        estado: "cancelado",
+        data: "2025-05-10"
+    },
+    {
+        id: "A338",
+        cliente: "Maura de Carvalho",
+        produto: "MackBook Pro 16",
+        preco: "$2,400",
+        estado: "cancelado",
+        data: "2025-05-10"
+    },
+]
+
+export const melhores_produtos = [
+    {
+        nome: "IPhone Pro Max 16",
+        venda: "2173",
+        receita: "$4,590,033",
+        tendencia: "Up",
+        troca: "+15%"
+    },
+    {
+        nome: "IPhone Pro Max 16",
+        venda: "2173",
+        receita: "$4,590,033",
+        tendencia: "Down",
+        troca: "+9%"
+    },
+    {
+        nome: "Samsung S16",
+        venda: "2173",
+        receita: "$4,590,033",
+        tendencia: "Up",
+        troca: "+10%"
+    },
+    {
+        nome: "Dell th300",
+        venda: "2173",
+        receita: "$4,590,033",
+        tendencia: "Up",
+        troca: "+19%"
+    },
+]
+
+export const atividades = [
+    {
+        id: "1",
+        type: "user",
+        icon: User,
+        title: "Novo usuario registado",
+        descricao: "Jão Mauricio criou uma conta",
+        tempo: "há 3 minutos",
+        color: "text-blue-500",
+        bgColor: "bg-blue-100 dark:bg-blue-900/30"
+    },
+    {
+        id: "2",
+        type: "ordem",
+        icon: ShoppingCart,
+        title: "Novo Compra recebida",
+        descricao: "Compra A338 por $1,799",
+        tempo: "há 7 minutos",
+        color: "text-emerald-500",
+        bgColor: "bg-emerald-100 dark:bg-emerald-900/30"
+    },
+    {
+        id: "3",
+        type: "user",
+        icon: User,
+        title: "Novo usuario registado",
+        descricao: "Jão Mauricio criou uma conta",
+        tempo: "3 há minutos",
+        color: "text-blue-500",
+        bgColor: "bg-blue-100 dark:bg-blue-900/30"
+    },
+    {
+        id: "4",
+        type: "notificacao",
+        icon: Bell,
+        title: "Verifica o Stock",
+        descricao: "O Stock do Samsung S14 está baixo",
+        tempo: "há 8 minutos",
+        color: "text-red-500",
+        bgColor: "bg-red-100 dark:bg-red-900/30"
+    },
+    {
+        id: "5",
+        type: "user",
+        icon: User,
+        title: "Novo usuario registado",
+        descricao: "Jão Mauricio criou uma conta",
+        tempo: "3 há minutos",
+        color: "text-blue-500",
+        bgColor: "bg-blue-100 dark:bg-blue-900/30"
+    },
 ]

@@ -2,7 +2,7 @@ import React from "react";
 import GrelhaDeEstados from "../components/dashboard/GrelhaDeEstados";
 import SessaoDosGraficos from "../sections/SessaoDosGraficos";
 import SessaodasTabelas from "../sections/SessaodasTabelas";
-import ActividadesAlimentares from "../components/dashboard/ActividadesAlimentares";
+import Actividades from "../components/dashboard/Actividades";
 import Calendario from "../components/dashboard/Calendario";
 
 export default function Dashboard() {
@@ -16,7 +16,7 @@ export default function Dashboard() {
                     <SessaodasTabelas />
                 </div>
                 <div>
-                    <ActividadesAlimentares />
+                    <Actividades />
                     <Calendario />
                 </div>
                 <div>

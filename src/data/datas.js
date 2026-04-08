@@ -263,7 +263,7 @@ export const atividades = [
         type: "user",
         icon: User,
         title: "Novo usuario registado",
-        descricao: "Jão Mauricio criou uma conta",
+        descricao: "Mingo da Silva criou uma conta",
         tempo: "3 há minutos",
         color: "text-blue-500",
         bgColor: "bg-blue-100 dark:bg-blue-900/30"
@@ -283,7 +283,7 @@ export const atividades = [
         type: "user",
         icon: User,
         title: "Novo usuario registado",
-        descricao: "Jão Mauricio criou uma conta",
+        descricao: "Nano Kalima criou uma conta",
         tempo: "3 há minutos",
         color: "text-blue-500",
         bgColor: "bg-blue-100 dark:bg-blue-900/30"
